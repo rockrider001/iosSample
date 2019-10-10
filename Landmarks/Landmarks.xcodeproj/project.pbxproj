@@ -20,6 +20,7 @@
 		CAE3F181234E1A670094A67E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3F180234E1A670094A67E /* Landmark.swift */; };
 		CAE3F184234E21D00094A67E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F183234E21D00094A67E /* landmarkData.json */; };
 		CAE3F186234E2A6F0094A67E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3F185234E2A6F0094A67E /* LandmarkRow.swift */; };
+		CAE3F18A234F77530094A67E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3F189234F77530094A67E /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CAE3F180234E1A670094A67E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		CAE3F183234E21D00094A67E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		CAE3F185234E2A6F0094A67E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		CAE3F189234F77530094A67E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				CAE3F180234E1A670094A67E /* Landmark.swift */,
+				CAE3F189234F77530094A67E /* Data.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				CAD3DC00234CA74400395A94 /* LandmarkDetail.swift in Sources */,
 				CAE3F186234E2A6F0094A67E /* LandmarkRow.swift in Sources */,
 				CAE3F181234E1A670094A67E /* Landmark.swift in Sources */,
+				CAE3F18A234F77530094A67E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
