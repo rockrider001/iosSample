@@ -12,24 +12,25 @@ struct LandmarkRow: View {
     var landmark: Landmark
     
     var body: some View {
+        
+        
         HStack {
             landmark.image(forSize: 100)
             Text(verbatim: landmark.name)
             Spacer()
-            
             if landmark.isFavorite {
                 Image(systemName: "star.fill")
                     .imageScale(.medium)
                     .foregroundColor(.yellow)
-            }
+            }        
         }
     }
 }
 
-#if true
+#if false
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarkData[4])
+        LandmarkRow(landmark: landmarkData[0])
             .previewLayout(.fixed(width: 300, height: 100))
     }
 }

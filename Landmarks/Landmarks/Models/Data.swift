@@ -50,7 +50,7 @@ final class ImageStore {
             ?? _sizeImage(images.values[index][ImageStore.originalSize]!, to: size * ImageStore.scale)
         images.values[index][size] = sizedImage
         
-        return Image(sizedImage, scale: 0.5, label: Text(verbatim: name))
+        return Image(sizedImage, scale: 0.01, label: Text(verbatim: name))
     }
     
     fileprivate func _guaranteeInitialImage(name: String) -> _ImageDictionary.Index {
