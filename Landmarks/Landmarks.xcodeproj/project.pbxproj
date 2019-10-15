@@ -34,6 +34,7 @@
 		CAE3F1A22350C2750094A67E /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F1952350C2740094A67E /* hikeData.json */; };
 		CAE3F1A32350C2750094A67E /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F1962350C2740094A67E /* chincoteague.jpg */; };
 		CAE3F1A42350C2750094A67E /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F1972350C2740094A67E /* charleyrivers.jpg */; };
+		CAFAA63523560B2C00F760BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA63423560B2C00F760BA /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		CAE3F1952350C2740094A67E /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		CAE3F1962350C2740094A67E /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
 		CAE3F1972350C2740094A67E /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		CAFAA63423560B2C00F760BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				CAE3F17D234E19F30094A67E /* Models */,
 				CAD3DBFB234CA74400395A94 /* AppDelegate.swift */,
 				CAD3DBFD234CA74400395A94 /* SceneDelegate.swift */,
+				CAFAA63423560B2C00F760BA /* Home.swift */,
 				CAD3DBFF234CA74400395A94 /* LandmarkDetail.swift */,
 				CAE3F185234E2A6F0094A67E /* LandmarkRow.swift */,
 				CAD3DC01234CA74900395A94 /* Assets.xcassets */,
@@ -358,6 +361,7 @@
 				CAE3F17A234CC6B90094A67E /* CircleImage.swift in Sources */,
 				CAE3F17C234CC8370094A67E /* MapView.swift in Sources */,
 				CAD3DBFE234CA74400395A94 /* SceneDelegate.swift in Sources */,
+				CAFAA63523560B2C00F760BA /* Home.swift in Sources */,
 				CAD3DC00234CA74400395A94 /* LandmarkDetail.swift in Sources */,
 				CAE3F186234E2A6F0094A67E /* LandmarkRow.swift in Sources */,
 				CAE3F181234E1A670094A67E /* Landmark.swift in Sources */,
