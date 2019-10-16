@@ -35,6 +35,7 @@
 		CAE3F1A32350C2750094A67E /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F1962350C2740094A67E /* chincoteague.jpg */; };
 		CAE3F1A42350C2750094A67E /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE3F1972350C2740094A67E /* charleyrivers.jpg */; };
 		CAFAA63523560B2C00F760BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA63423560B2C00F760BA /* Home.swift */; };
+		CAFAA637235757A200F760BA /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA636235757A100F760BA /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		CAE3F1962350C2740094A67E /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
 		CAE3F1972350C2740094A67E /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		CAFAA63423560B2C00F760BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CAFAA636235757A100F760BA /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				CAFAA63423560B2C00F760BA /* Home.swift */,
 				CAD3DBFF234CA74400395A94 /* LandmarkDetail.swift */,
 				CAE3F185234E2A6F0094A67E /* LandmarkRow.swift */,
+				CAFAA636235757A100F760BA /* CategoryRow.swift */,
 				CAD3DC01234CA74900395A94 /* Assets.xcassets */,
 				CAE3F179234CC6B90094A67E /* CircleImage.swift */,
 				CAE3F17B234CC8370094A67E /* MapView.swift */,
@@ -359,6 +362,7 @@
 			files = (
 				CAD3DBFC234CA74400395A94 /* AppDelegate.swift in Sources */,
 				CAE3F17A234CC6B90094A67E /* CircleImage.swift in Sources */,
+				CAFAA637235757A200F760BA /* CategoryRow.swift in Sources */,
 				CAE3F17C234CC8370094A67E /* MapView.swift in Sources */,
 				CAD3DBFE234CA74400395A94 /* SceneDelegate.swift in Sources */,
 				CAFAA63523560B2C00F760BA /* Home.swift in Sources */,
